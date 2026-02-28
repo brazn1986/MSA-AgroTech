@@ -46,8 +46,11 @@
 Система взаимодействует с пользователями и с существующей системой "АгроПром Х" , а также со
 сторонним аналитическим сервисом.
 
-![Основное решение](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/brazn1986/MSA-AgroTech/refs/heads/feature/Task-1/Task1/C1.puml)
+<figure style="text-align: center;">
+<figcaption>Основное решение</figcaption>
 
+<img src="https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/brazn1986/MSA-AgroTech/refs/heads/feature/Task-1/Task1/C1.puml"/>
+</figure>
 
 #### Последствия
 
@@ -71,9 +74,11 @@
 | Разработка собственного аналитического модуля       | независимость системы | Разработка собственного модуля ресурсоемкий процесс | скорость вывода в прод в приоритете |
 
 ---
+<figure style="text-align: center;">
+<figcaption>Альтернативное решение</figcaption>
 
-![Основное решение](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/brazn1986/MSA-AgroTech/refs/heads/feature/Task-1/Task1/C1-alternative.puml)
-
+<img src="https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/brazn1986/MSA-AgroTech/refs/heads/feature/Task-1/Task1/C1-alternative.puml"/>
+</figure>
 
 ### 5. Риски
 
