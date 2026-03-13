@@ -16,17 +16,6 @@
 Принято решение и создании приложения в контексте вышеописанных требований.
 
 
-<figure style="text-align: center;">
-<figcaption>Основное решение</figcaption>
-
-<img src="img/C3.jpg"/>
-</figure>
-
-<figure style="text-align: center;">
-<figcaption>Альтернативное решение</figcaption>
-
-<img src="img/C3-alternative.jpg"/>
-</figure>
 
 ## 3. Критерии
 #### 1 - Сложность реализации

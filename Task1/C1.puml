@@ -11,12 +11,13 @@
  Person(analytic, "Аналитик")
  Person(feed_mng, "Комплекс управления кормлением")
  Person(animal_watcher, "Скотовод")
-
+ 
+ Container(msa_farm, "MSA Agro Device", "system", "Датчики, камеры, элементы управления, преобразователи и другие части АСУ на ферме")
  Container(msa_agrotech_system, "MSA-AgroTech", "system", "Мониторинг и управление кормлением скота, мониторинг состояния и поведения скота, анализ данных")
   
  Rel(prod_owner, msa_agrotech_system, "Использует")
  Rel(analytic, msa_agrotech_system, "Анализирует")
- Rel(feed_mng, msa_agrotech_system, "Управляет")
+ Rel(feed_mng, msa_farm, "Управляет")
  Rel(animal_watcher, msa_agrotech_system, "Мониторит")
 
  System_Ext(agrotech_system, "АгроТех Х", "Мониторинг и управление техникой, поливом, анализ данных ")
@@ -26,5 +27,7 @@
  Rel(msa_agrotech_system, agrotech_system, "взаимодействует" )
  Rel(msa_agrotech_system, analytic_module, "запрашивает" )
  Rel(msa_agrotech_system, sms_service, "взаимодействует" )
+  Rel(msa_agrotech_system, msa_farm, "получает данные" )
+
 
  @enduml
